@@ -1,0 +1,12 @@
+version: 2  
+
+sources:
+  - name: raw
+    schema: gwz_raw_data
+    tables:
+      - name: sales
+        identifier: raw_gwz_sales
+      - name: products
+        identifier: raw_gwz_products
+      - name: ship
+        identifier: raw_gwz_ship
